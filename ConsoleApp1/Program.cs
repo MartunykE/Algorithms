@@ -9,16 +9,17 @@ namespace ConsoleApp1
 
         static void Main(string[] args)
         {
-
             //var m = new Matrix();
-
             //m.Main();
 
             //var c = new ClosestPair();
             //c.Main();
 
-            var bm = new BoyerMooreSubstring();
-            bm.Main();
+            //var bm = new BoyerMooreSubstring();
+            //bm.Main();
+
+            var kmp = new KnuthMorrisPrattSubstring();
+            kmp.Main();
 
             //MergeSort sort = new MergeSort();
             //sort.Main();
